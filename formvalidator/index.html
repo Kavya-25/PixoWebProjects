@@ -12,30 +12,38 @@
     <title>Login Page</title>
 </head>
 <body>
-    <h1>Account Login</h1>
+    <h1>Login to your Account</h1>
     
     <div id="layout">
         <div id="logo"><i class="fas fa-user-circle"></i><span>WELCOME</span></div>
-        <form>
-    <label for="username">Username</label>
-    <input type="text" name="username">
+        <form action="#" onsubmit="return validation()">
+    <label for="username">Username*</label>
+    <input type="text" name="username" id="user">
+    <div id="username" style="color:white; font-size: 18px; text-align: center;"> </div>
+    
+    <label for="email">Email Id*</label>
+    <input type="text" name="email" id="email">
+    <div id="e-mail" style="color: whitesmoke; font-size: 18px; text-align: center;"></div>
+    
 
-    <label for="email">Email Id</label>
-    <input type="email" name="email">
+    <label for="password">Password*</label>
+    <input type="password" name="password" id="pass">
+    <div id="pass1" style="color: whitesmoke; font-size: 18px; text-align: center;"></div>
+    
 
-    <label for="password">Password</label>
-    <input type="password" name="password">
+    <label for="confirm-password">Confirm Password*</label>
+    <input type="password" name="confirm-password" id="conpass">
+    <div id="conpass1" style="color: whitesmoke; font-size: 18px; text-align: center;"></div><br><br>
+    
 
-    <label for="confirm-password">Confirm Password</label>
-    <input type="password" name="confirm-password"><br><br>
-
-    <button id="login"><a href="#">Login</a></button>
+    <button type="submit" id="login" name="submit" value="submit">Login</button>
         </form>
        
     </div>
     
 
 
-    <script type="text/javascript" src="form.js"></script>
+    <script type="text/javascript" src="form.js">
+    </script>
 </body>
 </html>
