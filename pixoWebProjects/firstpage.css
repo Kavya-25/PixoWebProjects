@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    background-color: rgba(32, 32, 32, 0.952);
+    background-color: rgba(36, 35, 35, 0.952);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -126,7 +126,7 @@ font-family: 'Source Sans Pro', sans-serif;
     height: 600px;
     width: 380px;
     border-radius: 500px;
-    background-image: url(/pixoWebProjects/samurai.jpg);
+    background-image: url(https://th.bing.com/th/id/OIP.3Efbp2tfcKmbVFYVlTBpDgAAAA?pid=ImgDet&w=452&h=750&rs=1);
     opacity: 0.7;
     position: absolute;
     left: 425px;
@@ -156,7 +156,7 @@ font-family: 'Source Sans Pro', sans-serif;
        
     }
     #main-line{
-        background-image: url(/pixoWebProjects/samurai.jpg);
+        background-image: url(https://th.bing.com/th/id/OIP.3Efbp2tfcKmbVFYVlTBpDgAAAA?pid=ImgDet&w=452&h=750&rs=1);
         /* height: 5%;
         width: 20%; */
         border-radius: 20px;
@@ -185,6 +185,6 @@ font-family: 'Source Sans Pro', sans-serif;
         width:60%;
     }
     #main-line{
-        background-image: url(/pixoWebProjects/samurai.jpg);
+        background-image: url(https://th.bing.com/th/id/OIP.3Efbp2tfcKmbVFYVlTBpDgAAAA?pid=ImgDet&w=452&h=750&rs=1);
     }
 }
