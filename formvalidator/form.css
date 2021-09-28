@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+margin: 0;
+padding:0;
+background-image: url(https://w-dog.org/android-wallpapers/15/14/297391159630397/textures-line-of-the-strip-pink-purple-background-wallpaper-widescreen-full-screen-hd-wallpapers-fullscreen.jpg);
+
+/* background-image:linear-gradient(to right, rgb(43, 23, 53), purple); */
+/* color: white; */
+}
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    padding-top: 5px;
+
+}
+#layout{
+    height: 450px;
+    width: 350px;
+    background-color: rgba(0,0,0,0.45);
+    margin: auto;
+    border-radius: 15px;
+    /* box-shadow: 0.5px 0.5px 0.5px lightgray; */
+    opacity: 0.75;
+    padding: 10px;
+}
+#logo{
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family:'Varela Round', sans-serif ;
+    
+}
+label{
+font-family: 'Varela Round', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+input{
+    font-size: 15px;
+    padding:2px;
+    position: relative;
+    left:25%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    
+    
+}
+#login {
+    background-color: rgb(34, 12, 31);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+#login a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#login:hover{
+    box-shadow: 0.5px 0.5px 0.5px lightgray;
+}
