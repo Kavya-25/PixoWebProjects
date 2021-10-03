@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-top: 9px; */
+    color: rgb(13, 13, 14);
+}
+p{
+    margin-top: -15px;
+    text-align: center;
+}
+#back-img{
+    background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/171864-abstract-pink-and-yellow-fluid-gradient-shapes-composition-futuristic-design-background.jpg);
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+}
+#calculator-box{
+    height: 500px;
+    width: 320px;
+    background-color: rgb(241, 237, 237);
+    margin: auto;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 5px;
+}
+#result{
+    height: 100px;
+    width: 315px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    text-align: right;
+    font-size: 30px;
+    background-color: rgb(241, 237, 237);
+    display: flex;
+    word-wrap: break-word;
+}
+#keyboard{
+    height: 360px;
+}
+.number, .operator, .empty{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    float: left;
+     border-bottom: 0;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+.number, .empty{
+    border: none;
+}
+button:nth-child(4){
+    font-size: 25px;
+    background-color: rgb(27, 170, 180);
+}
+button:nth-child(8){
+    font-size: 25px;
+    background-color: rgb(36, 241, 129);
+}
+button:nth-child(12){
+    font-size: 25px;
+    background-color: rgb(248, 110, 191);
+}
+button:nth-child(16){
+    font-size: 25px;
+    background-color: rgb(152, 86, 226);
+}
+button:nth-child(20){
+    font-size: 25px;
+    background-color: rgb(240, 162, 99);
+}
+.number, .operator{
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(rgb(190, 54, 77),rgb(152, 224, 224),rgb(233, 233, 118));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: clock-animation 1s infinite;
+}
+#box{
+    height: 120px;
+    width: 380px;
+    background-image: linear-gradient(rgb(243, 150, 166),rgb(152, 224, 224),rgb(233, 233, 118));
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    animation: clock-animation 2s infinite;
+}
+@keyframes clock-animation{
+    100%{
+        filter: hue-rotate(180deg);
+    }
+}
+#display{
+    height: 100px;
+    width: 360px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    border-radius: 10px;
+}
+#time{
+    font-size: 40px;
+    letter-spacing:7px;
+    padding-top: 25px;
+    /* color: white; */
+    background: linear-gradient(rgb(190, 54, 77),rgb(152, 224, 224),rgb(233, 233, 118));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-weight:bolder;
+}
