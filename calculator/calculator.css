@@ -27,7 +27,7 @@ p{
     border-radius: 5px;
 }
 #result{
-    height: 100px;
+    height: 90px;
     width: 315px;
     border: none;
     font-weight: bold;
@@ -39,7 +39,7 @@ p{
     word-wrap: break-word;
 }
 #keyboard{
-    height: 360px;
+    height: 340px;
 }
 .number, .operator, .empty{
     width: 50px;
