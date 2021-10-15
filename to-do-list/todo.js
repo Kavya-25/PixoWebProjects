@@ -46,7 +46,7 @@ function showTask(){
         newLiTag+=`<div class="item"><li>${element}<span class="delete"  onclick="deleteTask(${index})"><i class="fas fa-trash"></i></span></li></div>`;
     });
     todoList.innerHTML=newLiTag;
-    inputboxdata.value=" ";
+    inputboxdata.value="";
 }
 // Deleting a particular todo
 function deleteTask(index){

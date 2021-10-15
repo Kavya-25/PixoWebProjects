@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your own To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Spartan:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" type="icon/image" href="https://static.vecteezy.com/system/resources/previews/000/644/201/original/vector-checklist-icon-symbol-sign.jpg">
     <script src="https://kit.fontawesome.com/df6302b4ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 <body>
+    
    <div id="todo_box">
-       <h1>Todo List</h1>
-       <input type="text" placeholder="Enter your new task.." id="input">
+       <h1>Your's ToDo List <i class="fas fa-clipboard-list"></i></h1>
+       <input type="text" placeholder="Enter your new task..." id="input">
        <button id="add"><i class="fas fa-plus"></i></button>
        <div id="items">
-           <ul id="tasklist">
+           <ol id="tasklist">
                
-           </ul>
+           </ol>
        </div>
        <div id="footer">
-           <span>You have <span id="pending">0</span> pending tasks</span>
-           <button id="clearAll">Clear All</button>
+           <div>You have <span id="pending">0</span> pending tasks</div>
+           <div><button id="clearAll">Remove All</button></div>
        </div>
    </div>
     
