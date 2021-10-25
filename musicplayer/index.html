@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Player</title>
+    <link rel="icon" type="icon/images" href="/musicplayer/favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="musicplayer.css">
+    <script src="https://kit.fontawesome.com/df6302b4ed.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <div id="player">
+        <div class="details">
+            
+            <div class="song_img"></div>
+            <div class="song_name">Song Name</div>
+            <div class="song_artist">Song Artist</div>
+        </div>
+        <div class="buttons">
+            <div class="prev_song" onclick="prevSong()"><i class="fas fa-step-backward"></i></div>
+            <div class="play_pause" onclick="playpauseSong()"><i class="fas fa-play"></i></div>
+            <div class="next_song" onclick="nextSong()"><i class="fas fa-step-forward"></i></div>
+        </div>
+        <div class="slider">
+            <div class="current_time">0:00</div>
+            <input type="range" min="1" max="100" value="0" class="duration_slider" onchange="getTo()">
+            <div class="total_duration">0:00</div>
+        </div>
+        <div class="slider">
+            <i class="fas fa-volume-down"></i>
+            <input type="range" min="1" max="100" value="50" class="volume_slider" onchange="setVolume()">
+            <i class="fas fa-volume-up"></i>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="musicplayer.js"></script>
+</body>
+</html>
