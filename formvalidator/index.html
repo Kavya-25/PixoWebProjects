@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <title>Login Page</title>
 </head>
 <body>
@@ -17,23 +20,23 @@
     <div id="layout">
         <div id="logo"><i class="fas fa-user-circle"></i><span>WELCOME</span></div>
         <form action="#" onsubmit="return validation()">
-    <label for="username">Username*</label>
-    <input type="text" name="username" id="user">
-    <div id="username" style="color:white; font-size: 18px; text-align: center;"> </div>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="user" placeholder="Username">
+    <div id="username" style="color:red; font-size: 18px; text-align: center ;margin-top: 2px;"> </div>
     
-    <label for="email">Email Id*</label>
-    <input type="text" name="email" id="email">
-    <div id="e-mail" style="color: whitesmoke; font-size: 18px; text-align: center;"></div>
-    
-
-    <label for="password">Password*</label>
-    <input type="password" name="password" id="pass">
-    <div id="pass1" style="color: whitesmoke; font-size: 18px; text-align: center;"></div>
+    <label for="email">Email Id</label>
+    <input type="text" name="email" id="email" placeholder="Email Id">
+    <div id="e-mail" style="color: red; font-size: 18px; text-align: center ;margin-top: 2px;"></div>
     
 
-    <label for="confirm-password">Confirm Password*</label>
-    <input type="password" name="confirm-password" id="conpass">
-    <div id="conpass1" style="color: whitesmoke; font-size: 18px; text-align: center;"></div><br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="pass" placeholder="Password">
+    <div id="pass1" style="color: red; font-size: 25px; text-align: center; margin-top: 2px;"></div>
+    
+
+    <label for="confirm-password">Confirm Password</label>
+    <input type="password" name="confirm-password" id="conpass" placeholder="Confirm Password">
+    <div id="conpass1" style="color: red; font-size: 18px; text-align: center;margin-top: 2px;"></div><br><br>
     
 
     <button type="submit" id="login" name="submit" value="submit">Login</button>
