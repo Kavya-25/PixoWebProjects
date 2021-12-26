@@ -40,6 +40,7 @@ p{
 }
 #keyboard{
     height: 340px;
+    
 }
 .number, .operator, .empty{
     width: 50px;
@@ -51,27 +52,39 @@ p{
     font-weight: bold;
     font-size: 23px;
     text-align: center;
+    outline: none;
 }
 .number, .empty{
     border: none;
+    outline: none
 }
 button:nth-child(4){
     font-size: 25px;
+    border: none;
+    outline: none;
     background-color: rgb(27, 170, 180);
 }
 button:nth-child(8){
+    border: none;
+    outline: none;
     font-size: 25px;
     background-color: rgb(36, 241, 129);
 }
 button:nth-child(12){
+    border: none;
+    outline: none;
     font-size: 25px;
     background-color: rgb(248, 110, 191);
 }
 button:nth-child(16){
+    border: none;
+    outline: none;
     font-size: 25px;
     background-color: rgb(152, 86, 226);
 }
 button:nth-child(20){
+    border: none;
+    outline: none;
     font-size: 25px;
     background-color: rgb(240, 162, 99);
 }
